@@ -1,8 +1,24 @@
-
-void setup(){
-  //some of your code here
+void setup()
+{
+size(500,500);
+fill(#79BFBE);
+rect(0,0,500,500);
+fill(#95A0A7);
+ellipse(250,390,300,500);
+fill(#7C7474);
+ellipse(250,225,200,200);
+fill(188,182,182);
+arc(250,275,150,100,0,PI*2);
+fill(188,182,182);
+arc(250,275,150,100,PI,PI+PI);
+arc(213.2,275,75,75,0,PI);
+arc(288,275,75,75,0,PI);
+fill(0,0,0);
+triangle(250,275,213.2,235,288,235);
+ellipse(210,205,40,20);
+ellipse(290,205,40,20);
+fill(#D8D8D8);
+line(213.2,275,150,275);
+line(288,275,350,275);
+line(213.2,250,160,200);
 }
-void draw(){
-  //more of your code here
-}
-
